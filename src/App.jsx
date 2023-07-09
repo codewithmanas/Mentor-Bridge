@@ -16,6 +16,8 @@ import uptriangleImg from "./assets/images/up-triangle.svg";
 import alishaImg from "./assets/images/alisha.png";
 import michaelImg from "./assets/images/michael.png";
 import leeImg from "./assets/images/lee.png";
+import leftArrow from "./assets/images/left-arrow.svg";
+import rightArrow from "./assets/images/right-arrow.svg";
 
 function App() {
 
@@ -93,6 +95,7 @@ It&apos;s a win win!</p>
           <h3 className="feedback__title">What our Clients says about us</h3>
 
           <div className="feedback__list">
+          <img src={leftArrow} alt="left arrow" className="left__arrow" />
             <div>
             <div className="feedback__box">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu
@@ -106,7 +109,7 @@ It&apos;s a win win!</p>
             <div>
             <div className="feedback__box">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu
-            <div className="client__name">Machael</div>
+            <div className="client__name">Michael</div>
             <img className="uptriangleImg" src={uptriangleImg} alt="up-triangle" />
             <img className="michaelImg" src={michaelImg} alt="michael" />
             </div>
@@ -123,6 +126,8 @@ It&apos;s a win win!</p>
             </div>
             <div className="client__designation">HR Director, Meta</div>
             </div>
+
+          <img src={rightArrow} alt="right arrow" className="right__arrow" />
             
           </div>
         </div>

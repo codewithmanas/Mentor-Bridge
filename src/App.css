@@ -307,6 +307,24 @@
   justify-content: space-between;
 }
 
+.left__arrow, .right__arrow {
+  width: 18px;
+  /* position: absolute; */
+  margin-bottom: 40px;
+}
+/* 
+.left__arrow {
+  top: 80px;
+  left: 0;
+  z-index: 5;
+}
+
+.right__arrow {
+  top: 80px;
+  right: -10px;
+  z-index: 5;
+} */
+
 .feedback__box {
   position: relative;
   display: flex;
